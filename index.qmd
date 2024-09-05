@@ -1,7 +1,7 @@
 ---
 title: Aligning spikes to histology with BrainGlobe
-# subtitle: Whole brain microscopy analysis
 author: Adam Tyson
+institute: Sainsbury Wellcome Centre & Gatsby Computational Neuroscience Unit, UCL.
 execute: 
   enabled: true
 format:
@@ -28,7 +28,7 @@ format:
     html:
         theme: [default, bg-light.scss]
         logo: img/BG_logo.png
-        date: "2023-12-06"
+        date: "2024-10-15"
         toc: true
         code-overflow: scroll
         highlight-style: atom-one
@@ -51,7 +51,10 @@ format:
 
 
 ## Probe track labelling & imaging
+<!-- vertical alignment -->
+::: {layout="[[-1], [1], [-1]]"}
 ![](img/probe_image.png){fig-align="center" width=100%}
+:::
 
 ::: footer
 [Tyson, A. L. et al. (2022) “Accurate determination of marker location within whole-brain microscopy images” Sci Rep, 12, 867](https://doi.org/10.1038/s41598-021-04676-9)
@@ -61,12 +64,14 @@ format:
 ## Atlas alignment
 ![](img/segmentation_image.png){fig-align="center" width=100%}
 
+
 ::: footer
 [Tyson, A. L. et al. (2022) “Accurate determination of marker location within whole-brain microscopy images” Sci Rep, 12, 867](https://doi.org/10.1038/s41598-021-04676-9)
 :::
 
 ## brainreg & brainglobe-segmentation
-![](img/brainreg-segment.png){fig-align="center" width=100%}
+![](img/software-overview.png){fig-align="center" width=100%}
+
 
 ::: footer
 [Tyson, A. L. et al. (2022) “Accurate determination of marker location within whole-brain microscopy images” Sci Rep, 12, 867](https://doi.org/10.1038/s41598-021-04676-9)
@@ -84,6 +89,7 @@ format:
 ![](img/bg-seg-means.png){fig-align="center" width=100%}
 :::
 :::
+
 
 ::: footer
 [Tyson, A. L., Vélez-Fort, M., Rousseau, C. V. et al. (2022) “Accurate determination of marker location within whole-brain microscopy images” Scientific Reports, 12, 867](https://doi.org/10.1038/s41598-021-04676-9)
@@ -154,9 +160,33 @@ format:
 :::
 
 
-## Resources
-* [BrainGlobe website](https://brainglobe.info/){preview-link="true"}
-* [Help forum](https://forum.image.sc/tag/brainglobe/){preview-link="true"}
-* [Developer forum](https://brainglobe.zulipchat.com/){preview-link="true"}
-* [GitHub](https://github.com/brainglobe/){preview-link="true"}
+##
+#### Support
 
+![](img/institutes.png){fig-align="center" height="90px"}
+
+![](img/funders.png){fig-align="center" height="90px"}
+
+:::{.fragment}
+#### Contributors
+
+::: {style="font-size: 40%;"}
+Stephen Lenzi, Rob Campbell, Joe Ziminski, Sofia Miñano, Niko Sirmpilatze, Nicholas Del Grosso, Laura Porta, Lee Cossell, Antonin Blot, David Pérez-Suárez, David Stansby, Will Graham, Patrick Roddy, Adrien Berchet, Mathieu Bourdenx, Ben Kantor, NovaFae, David Young, Sam Clothier, Gubra-ApS, Kailyn Fields, ramroomh, Samuel Diebolt, Chris Roat, Oren Amsalem, kclamar, Draga Doncila Pop, juanma9613, Jules Scholler, Iaroslavna Vasylieva, Nicolas Peschke, Justin Kiggins, Peter Sobolewski, Simão Bolota, chili-chiu, jaimergp, Sebastian Lammers, Matt Colligan, Paul Brodersen, Carter Peene, francesshei, Sean Martin, Adam Tyson, Federico Claudi, Luigi Petrucco, Alessandro Felder, Christian Niedworok, Charly Rousseau, Horst Obenhaus, Chryssanthi Tsitoura, Sepiedeh Keshavarzi, Mateo Vélez-Fort, Ben Dichter, 4iar, Marco Musy, Anna Medyukhina, stegiopast, EmanPaoli, lidakanari, Alexis Arnaudon, Yaroslav Halchenko, Ziyang Liu, Philip Shamash, koushik-ms, Harald Reingruber, Emily Jane Dennis, Peak, Maximilian Blacher, Hernando Martinez Vergara, Estelle, nicole-vissers, GD, Michael Kunst, Estelle Nassar, Sara Mederos, Igor Tatarnikov, Viktor Plattner, Carlo Castoldi, Jingjie Li, Guillaume Le Goc, Harry Carey, Matt Einhorn, Kimberly Meechan, Robert Kozol, Roberto, Axel Bisi, Jung Woo Kim, Saima Abdus, Saarah Hussain
+:::
+:::
+
+##
+### Resources
+
+BrainGlobe website: [brainglobe.info](https://brainglobe.info/)
+
+GitHub: [github.com/brainglobe](https://github.com/brainglobe/)
+
+Tutorial: [brainglobe.info/tutorials/silicon-probe-tracking](https://brainglobe.info/tutorials/silicon-probe-tracking.html)
+
+:::{.fragment}
+### Contact
+Help forum: [forum.image.sc](https://forum.image.sc/tag/brainglobe/)
+
+Developer forum: [brainglobe.zulipchat.com](https://brainglobe.zulipchat.com/)
+:::
